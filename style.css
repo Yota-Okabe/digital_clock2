@@ -1,0 +1,61 @@
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: auto;
+}
+/* 現在時刻 */
+#now {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.realtime {
+    border-radius: 1rem;
+    padding: 2rem;
+}
+/*  機能①『カウントダウン』 */
+.time-left {
+    margin-right: 1rem;
+}
+.countdown-container {
+    margin: 5rem;
+}
+.time-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.time {
+    margin: .2rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+#hour,#min,#sec {
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: red;
+    font-weight: bold;
+}
+
+/* 機能②『ストップウォッチ』 */
+.stop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+#time {
+    font-size: 3rem;
+}
+#start,#stop,#reset {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: black;
+    border-radius: 0.5rem;
+    border-color: gray;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
