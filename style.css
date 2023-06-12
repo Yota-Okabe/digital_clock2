@@ -59,3 +59,55 @@ html, body {
     border-color: gray;
     margin: 1rem 0.5rem 0.5rem 0.5rem;
 }
+
+/* レスポンシブ "iPhone XR" */
+@media screen and (max-width:780px) {
+
+    body {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .time-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .time {
+    margin: .1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+    #hour,#min,#sec {
+    font-size: 2rem;
+    }
+
+    .stop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #now {
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+
+    #start,#stop,#reset {
+    font-size: 1rem;
+    margin: 0.5rem 0.1rem 0.1rem 0.1rem;
+    }
+
+    #time {
+        font-size: 2.5rem;
+    }
+}
