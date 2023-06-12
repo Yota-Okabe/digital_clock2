@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital_clock</title>
+</head>
+
+<body>
+<!--現在時刻 -->
+    <div class="countdown-container">
+        <h1>現在時刻</h1>
+        <div class="time-container realtime">
+            <span id="now"></span>
+        </div>
+    </div>
+    <hr>
+    
+<!-- 機能①『カウントダウン』 -->
+    <div class="countdown-container">
+        <h1>終業時刻18時まで</h1>
+        <div class="time-container">
+            <h2 class="time-left">残り</h2>
+            <p class="time"><span id="hour"></span>時間</p>
+            <p class="time"><span id="min"></span>分</p>
+            <p class="time"><span id="sec"></span>秒</p>
+        </div>
+    </div>
+    <hr>
+
+<!-- 機能②『ストップウォッチ』 -->
+    <div class="countdown-container">
+        <h1>ストップウォッチ</h1>
+        <div class="stop-container">
+            <div id="time">
+                00:00:00.000
+            </div>
+            <div id="buttons">
+                <input id="start" type="button" value="start" class="button">
+                <input id="stop" type="button" value="stop" class="button">
+                <input id="reset" type="button" value="reset" class="button">
+            </div>
+        </div>  
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
